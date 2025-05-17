@@ -77,7 +77,7 @@ export default function WeeklyIncomeChart({ data }: WeeklyIncomeChartProps) {
     scales: {
       x: {
         grid: {
-          display: false, // ❌ removes horizontal grid lines
+          display: false, 
         },
         ticks: {
           color: '#6B7280',
@@ -98,7 +98,9 @@ export default function WeeklyIncomeChart({ data }: WeeklyIncomeChartProps) {
           font: {
             size: 12,
           },
-          callback: (value: any) => `${value}`,
+         callback: function(tickValue: number | string) {
+            return `${tickValue}`;
+          },
         },
         
       },

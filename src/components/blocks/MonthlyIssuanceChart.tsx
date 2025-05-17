@@ -85,8 +85,9 @@ export default function MonthlyIssuanceChart({ data }: MonthlyIssuanceChartProps
           font: {
             size: 12,
           },
-          callback: (value: any) => `${value}`,
-          
+          callback: function(tickValue: number | string) {
+            return `${tickValue}`;
+          },
         },
         grid: {
           color: "#F2F4F7",
