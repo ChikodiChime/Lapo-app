@@ -69,7 +69,7 @@ export function Sidebar({ className }: SidebarProps) {
 
   return (
     <div
-      className={cn("flex flex-col h-full border-r", className, textColorClass)}
+      className={cn("flex flex-col h-full border-r overflow-y-auto", className, textColorClass)}
       style={{ backgroundColor }}
     >
       <div className="p-4">
