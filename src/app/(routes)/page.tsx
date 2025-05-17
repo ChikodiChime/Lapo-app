@@ -18,7 +18,7 @@ const WeeklyIncomeChart = lazy(() => import("@/components/blocks/WeeklyIncomeCha
 export default function Page() {
   return (
     <div className="space-y-6">
-      <div className="flex justify-between item-center">
+      <div className="flex flex-col md:flex-row justify-between gap-4 md:items-center">
         <div className="">
            <h2 className="text-lg font-bold">
           Hi Nazeer, what would you like to do today?
@@ -28,12 +28,12 @@ export default function Page() {
         </span>
         </div>
        
-       <div className="flex items-center border text-[11px] gap-4 border-[#D0D5DD] rounded px-4">
+       <div className="flex items-center justify-start w-fit border text-[11px] gap-4 border-[#D0D5DD] rounded px-4 py-2">
         <div className="flex items-center gap-2 border-r pr-4">
           <CalendarIcon className="w-5 h-5"/>
           <span className="font-medium">Today</span>
         </div>
-               <span> {new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}</span>   
+               <span className="whitespace-nowrap"> {new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}</span>   
 
        </div>
       </div>
