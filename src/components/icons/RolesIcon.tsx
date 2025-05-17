@@ -10,7 +10,7 @@ export const RolesIcon = ({ className }: { className?: string }) => {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      <g clip-path="url(#clip0_112_6181)">
+      <g clipPath="url(#clip0_112_6181)">
         <path
           d="M8.00004 9.36456C6.52851 9.22707 5.02043 9.54595 3.71842 10.3212C2.77524 10.8828 0.302284 12.0296 1.80848 13.4645C2.54425 14.1655 3.3637 14.6668 4.39395 14.6668H8.66671"
           stroke="currentColor"

@@ -8,7 +8,7 @@ export default function RouteLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body >
         <MainLayout>{children}</MainLayout>
         <ThemeSwitcher />
       </body>

@@ -23,7 +23,7 @@ export const BranchIcon = ({ className }: { className?: string }) => {
       <path
         d="M5.33337 4L6.66671 4M5.33337 6L6.66671 6M5.33337 8L6.66671 8"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path

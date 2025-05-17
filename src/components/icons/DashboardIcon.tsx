@@ -10,7 +10,7 @@ export const DashboardIcon = ({ className }: { className?: string }) => {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      <g clip-path="url(#clip0_112_6997)">
+      <g clipPath="url(#clip0_112_6997)">
         <path
           d="M5.99987 14.6667L5.83278 12.3274C5.74295 11.0697 6.73901 10 7.99987 10C9.26073 10 10.2568 11.0697 10.167 12.3274L9.99987 14.6667"
           stroke="currentColor"

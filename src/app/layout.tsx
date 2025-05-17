@@ -19,9 +19,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${satoshi.variable} antialiased`}>
-        {children}
+      <body>
+        <div className={`${satoshi.variable} antialiased`}>
+           {children}
         <ThemeSwitcher />
+        </div>
+       
       </body>
     </html>
   );

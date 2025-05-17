@@ -13,7 +13,7 @@ export const CardSchemeIcon = ({ className }: { className?: string }) => {
       <path
         d="M1.66663 7.99984C1.66663 5.01428 1.66663 3.52149 2.59412 2.594C3.52162 1.6665 5.0144 1.6665 7.99996 1.6665C10.9855 1.6665 12.4783 1.6665 13.4058 2.594C14.3333 3.52149 14.3333 5.01428 14.3333 7.99984C14.3333 10.9854 14.3333 12.4782 13.4058 13.4057C12.4783 14.3332 10.9855 14.3332 7.99996 14.3332C5.0144 14.3332 3.52162 14.3332 2.59412 13.4057C1.66663 12.4782 1.66663 10.9854 1.66663 7.99984Z"
         stroke="currentColor"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5.66663 6.6665C5.11434 6.6665 4.66663 6.21879 4.66663 5.6665C4.66663 5.11422 5.11434 4.6665 5.66663 4.6665C6.21891 4.6665 6.66663 5.11422 6.66663 5.6665C6.66663 6.21879 6.21891 6.6665 5.66663 6.6665Z"
@@ -26,12 +26,12 @@ export const CardSchemeIcon = ({ className }: { className?: string }) => {
       <path
         d="M6.66671 5.6665L11.3334 5.6665"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.33329 10.3335L4.66663 10.3335"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );
