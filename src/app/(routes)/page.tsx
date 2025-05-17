@@ -3,7 +3,7 @@
 import { StatCard as StatCardComponent } from "@/components/blocks/StatCard";
 import QuickAccessCard from "@/components/blocks/QuickAccessCard";
 
-import { CardCheckIcon, CardPenIcon, CardPlusIcon, CardsIcon, HourglassIcon, ManageIcon, MoneyIcon } from "@/components/icons";
+import { CalendarIcon, CardCheckIcon, CardPenIcon, CardPlusIcon, CardsIcon, HourglassIcon, ManageIcon, MoneyIcon } from "@/components/icons";
 
 import { ChartModal } from "@/components/blocks/ChartModal";
 import { lazy } from "react";
@@ -18,13 +18,24 @@ const WeeklyIncomeChart = lazy(() => import("@/components/blocks/WeeklyIncomeCha
 export default function Page() {
   return (
     <div className="space-y-6">
-      <div className="">
-        <h2 className="text-lg font-bold">
+      <div className="flex justify-between item-center">
+        <div className="">
+           <h2 className="text-lg font-bold">
           Hi Nazeer, what would you like to do today?
         </h2>
         <span className="text-xs">
           <span className="font-medium ">Last login: </span>26/11/2024 14:39:58
         </span>
+        </div>
+       
+       <div className="flex items-center border text-[11px] gap-4 border-[#D0D5DD] rounded px-4">
+        <div className="flex items-center gap-2 border-r pr-4">
+          <CalendarIcon className="w-5 h-5"/>
+          <span className="font-medium">Today</span>
+        </div>
+               <span> {new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}</span>   
+
+       </div>
       </div>
 
       <section className="mb-5 bg-white rounded-lg border p-5">
